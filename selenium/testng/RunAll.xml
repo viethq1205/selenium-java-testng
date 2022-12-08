@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Facebook Application">    
+   
+  <suite-files>
+       <suite-file path="RunOnWebApp.xml" />
+       <suite-file path="RunOnMobileApp.xml" />
+   </suite-files>
+</suite>
+
+<!-- đây là thằng chạy nhiều package 1 lúc trong bài run multi suite của testng -->
+<!-- có thêm các package, file xml nào đã set muốn chạy luôn thì add thêm vào suite-file thôi -->
+<!-- nhưng làm chung 1 framework như này rất lằng nhằng ở thực tế nhé, yêu cầu khả năng quản lý file, source code tốt, chia task công việc cũng phải hợp lý  -->
